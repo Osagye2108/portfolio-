@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>about</title>
+    </head>
+    <style>
+
+     body{
+         background: url(back.jpg);
+         background-size: cover;
+         color:rgb(0, 0, 0);
+     }  
+      .registration-form{
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+      width:350px;
+      }
+      .registration-form h1{
+          font-size: 25px;
+          text-align: center;
+          text-transform: uppercase;
+          margin: 40px 0;
+      }
+      .registration-form p{
+        font-size: 20; 
+        margin: 15px 0; 
+      }
+      .registration-form input{
+          font-size: 16px;
+          padding: 10px 5px;
+          width: 70%;
+          border: 0;
+          border-radius: 5px;
+      }
+      .registration-form button{
+       font-size: 18px;
+       font-weight: bold;
+       margin: 20px 0;
+       padding: 10px 15px;
+       width: 50%; 
+       border: 0;
+       border-radius: 5px; 
+       background-color: white;
+      }
+      button:hover{
+        background: red;
+        transition: 1.0001s;
+        transform: rotate(20%);
+      }
+    
+      
+    </style>
+    <body> 
+      <div class="registration-form">
+         <h1>Contact Form</h1> 
+         <form action="*" method="post">
+         <p>Full Name:</p>
+         <input type="text" name placeholder="Full name...">
+         <p>Subject:</p>
+         <input type="text" subject placeholder="Subject...">
+         <p>Email:</p>
+         <input type="text" email  placeholder="email...">
+         <p>Phone No:</p>
+         <input type="text" phone placeholder="phone...">
+         <p>massage</p>
+         <input type="text" massage placeholder="massage...">
+         <button type="submit">submit</button>
+
+         </form>
+      </div>  
+    </body>
+</html>
